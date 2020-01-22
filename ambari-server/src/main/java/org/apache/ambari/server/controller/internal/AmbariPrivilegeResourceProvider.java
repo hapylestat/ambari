@@ -36,6 +36,7 @@ import org.apache.ambari.server.view.ViewRegistry;
 import java.util.EnumSet;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -122,7 +123,7 @@ public class AmbariPrivilegeResourceProvider extends PrivilegeResourceProvider<O
 
   @Override
   public Map<Long, Object> getResourceEntities(Map<String, Object> properties) {
-    Map<Long, Object> resourceEntities = new HashMap<Long, Object>();
+    Map<Long, Object> resourceEntities = new LinkedHashMap<>();
 
     resourceEntities.put(ResourceEntity.AMBARI_RESOURCE_ID, null);
     // add cluster entities
