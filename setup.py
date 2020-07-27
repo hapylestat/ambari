@@ -71,7 +71,7 @@ Note: using 'export AMBARI_VERSION=2.7.1' before commands you can redefine the p
 setup(
   name = "ambari-python",
   version = get_version(),
-  author = "Apache Software Foundation",
+  author = "Apache Software Foundationdasda",
   author_email = "dev@ambari.apache.org",
   description = ("Framework for provison/manage/monitor Hadoop clusters"),
   license = "AP2",
