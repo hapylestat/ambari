@@ -1,6 +1,8 @@
 name: Pull Request Check
 on:
   pull_request:
+    branches:
+      - trunk
   check_run:
     types: [created, rerequested, requested_action]
 
