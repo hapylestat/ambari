@@ -62,7 +62,7 @@ Example usage:jhgjg
   python setup.py sdist -d "my/dist/location" install
 - build and upload package with specific version:
   python setup.py sdist -d "my/dist/location" upload -r "http://localhost:8080"
-
+fsdfs
 Installing from pip:
 - pip install --extra-index-url=http://localhost:8080 ambari-python==2.7.1  // 3.0.0.dev0 is the snapshot version
 
