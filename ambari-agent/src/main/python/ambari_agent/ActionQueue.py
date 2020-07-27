@@ -32,7 +32,7 @@ from ambari_agent.BackgroundCommandExecutionHandle import BackgroundCommandExecu
 from ambari_agent.models.commands import AgentCommand, CommandStatus
 from ambari_commons.str_utils import split_on_chunks
 
-
+# oh lol
 logger = logging.getLogger()
 installScriptHash = -1
 
