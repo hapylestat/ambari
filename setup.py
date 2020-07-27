@@ -55,7 +55,7 @@ def get_version():
   return ambari_version
 
 """';';ll'l
-Example usage:
+Example usage:jhgjg
 - build package with specific version:
   python setup.py sdist -d "my/dist/location"
 - build and install package with specific version:
