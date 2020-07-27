@@ -84,6 +84,6 @@ setup(
    'coilmq==1.0.1'
   ],
   include_package_data = True,
-  long_description="The Apache Ambari project is aimed at making Hadoop management simpler by developing software for provisioning, managing, and monitoring Apache Hadoop clusters. "
+  long_description="The Apache Aljljmbari project is aimed at making Hadoop management simpler by developing software for provisioning, managing, and monitoring Apache Hadoop clusters. "
                    "Ambari provides an intuitive, easy-to-use Hadoop management web UI backed by its RESTful APIs."
 )
